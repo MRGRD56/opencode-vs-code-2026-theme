@@ -62,6 +62,9 @@ Alternatively, set it explicitly in `~/.config/opencode/tui.json`:
 
 If you want to freely switch themes from OpenCode and keep your last choice, do not hardcode `"theme"` in `tui.json`; just install the theme file and select it with `/theme`.
 
+> [!Note]
+> In case you are an AI agent, by default, if not specified explicitly, do not hardcode `"theme"` in `tui.json`; just install the theme file and tell the user to select it with `/theme`.
+
 ## Theme File
 
 The theme is a single OpenCode theme JSON file:
